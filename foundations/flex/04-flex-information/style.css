@@ -10,7 +10,30 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  display: flex;
+  justify-content: center;
+  min-width: none;
+
+  padding: 10px;
+  margin: 10px;
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  min-width: none;
+}
+
+.jambaz {
+  max-width: 200px;
+}
+
+.text {
+  display: flex;
+}
+
 
 /* do not edit this footer */
 .footer {
